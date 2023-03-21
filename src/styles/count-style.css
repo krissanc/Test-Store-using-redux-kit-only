@@ -1,0 +1,17 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8369587;
+}
+
+.cart-image {
+    width: 200px;
+    height: 200px;
+}
+
+.cart-buttons {
+    display: flex;
+    margin-top: 40px;
+}

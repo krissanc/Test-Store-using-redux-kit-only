@@ -1,0 +1,36 @@
+nav {
+
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: antiquewhite;
+    height: 8vh;
+}
+
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    transition: transform 0.6s;
+
+}
+
+.cart img {
+    max-width: 3vw;
+    max-width: 5vh;
+}
+
+
+.cart p {
+    position: relative;
+    right: 5px;
+    bottom: 28px;
+
+    font-size: large;
+}
+
+.cart:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}
