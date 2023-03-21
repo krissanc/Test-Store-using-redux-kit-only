@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+
+// IMPORT FONT AWESOME
+import '@fortawesome/fontawesome-free/css/fontawesome.min.css';
+import '@fortawesome/fontawesome-free/css/solid.min.css';
+
+
+import Cart from './components/Cart.js'
+import Navbar from './components/Navbar.js'
+import Store from './components/Store.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Store />
     </div>
   );
 }
