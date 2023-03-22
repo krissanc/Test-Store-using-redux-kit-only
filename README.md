@@ -5,7 +5,8 @@ This was fun to do and to explore - the redux kit. The main takeaway is that, wh
 What I wanted to do was a store, an actual store, with a list of products. Then I wanted the user to click on a product and add it to a cart. The cart is located in a Navbar component which imports the store and displays the current count of items in the cart.
 
 How I want to build upon this: 
--Add so that the user can press the cart and have a list of items, and the amount, be shown in a new little div. Usually that functionality exists in proffesional "store" sites, and I think I know how to build it. I just need some more time.
+-Add so that the user can press the cart and have a list of items, and the amount, be shown in a new little div. Usually that functionality exists in proffesional "store" sites, and I think I know how to build it. I just need some more time. 
+    * (22 March, 2023, I added some functionality, but nowhere near as good as I want it to be. Will continue working. )
 -Not have the cart icon move to the left once the count becomes double digits
 -Have there be some visual feedback on the button when it is clicked
 
