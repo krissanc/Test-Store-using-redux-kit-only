@@ -40,6 +40,7 @@ nav {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 
     width: 20vw;
@@ -50,6 +51,7 @@ nav {
 
 .navbar-cart-item {
     background: white;
+    border: solid thin black;
 
     display: flex;
     justify-content: space-around;
