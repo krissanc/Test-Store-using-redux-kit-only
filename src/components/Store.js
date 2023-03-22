@@ -8,23 +8,20 @@ import '../styles/store-style.css'
 const Store = () => {
     return (
 
-
         <div className="store">
 
-            {Products.map((product) => {
+            {Products.map((product, index) => {
                 return (
-                    <div className="product">
+                    <div key={product.id} className="product">
                         <p> {product.name} </p>
                         <img src={product.image} alt=""></img>
                         <p> {product.price} </p>
-                        <button onClick={() => store.dispatch({ type: 'INCREMENT' })}> Add to cart </button>
+                        <button onClick={() => store.dispatch({ type: 'ADDTOCART', payload: product })}> Add to cart </button>
                     </div>
                 )
             })}
 
         </div>
-
-
 
     )
 }
