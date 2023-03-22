@@ -51,11 +51,12 @@ nav {
 
 .navbar-cart-item {
     background: white;
-    border: solid thin black;
+    border: solid thin rgba(0, 0, 0, 0.1);
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 5px 0px;
 
 }
 
